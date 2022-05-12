@@ -1,0 +1,183 @@
+/*---------------------------- Navbar --------------------------*/
+.bgnav{
+    background-color: #f4694c;
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+}
+/*--------------------------- Big-Image ------------------------*/
+.all{
+    background-image:url('/Images/home-cover.jpg');
+    height: 882px;
+    width: 100%;
+}
+.shadow{
+    width:100%;
+    opacity:0.5;
+    height: 882px;
+}
+.mh{
+    font-family: 'Montserrat';
+    font-size:50px;
+}
+.bh{
+    font-family: 'Montserrat';
+    font-size:134px;
+    font-weight:bold;
+    letter-spacing:13px;
+}
+p{
+    font-family:'Montserrat';
+    font-size: 25px;
+}
+
+/*---------------------------------- Frames ---------------------*/
+.frame{
+    text-align: center;
+}
+.fi1{
+    width:530px;
+    height:680px;
+}
+.fi2{
+    width:300px;
+    height:550px;
+}
+.text h1{
+    font-size:36px;
+    font-family: 'Poppins';
+}
+.text p{
+    font-size:21px;
+    font-family: 'Montserrat';
+}
+.text{
+    text-align:left;
+}
+@media (max-width:1000px){
+    .frame{
+        text-align: center;
+    }
+    .text {
+        
+        margin-left: 20%;
+    }
+}
+/*------------------------------ Choose -----------------------*/
+.choose h3{
+    text-align: center;
+    font-family:'Playfair Display';
+    font-size:36px;
+}
+.choose p{
+    text-align: center;
+    font-family:'Raleway';
+    font-size:18px;
+}
+.btnc{
+    background-color:#f4694c;
+    color: #fff;
+}
+.cards{
+    font-family: 'Raleway' semi-bold;
+}
+/*---------------------------- Costumers --------------------*/
+.costum h3{
+    font-family:'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.cardc {
+    font-family: 'Raleway';
+    font-size:21px;
+    color: #999999;
+} 
+.bottomall h5{
+    font-family: 'Raleway' semi-bold;
+    font-size:14px;
+}
+.bottomall p{
+    font-family: 'Raleway' semi-bold;
+    font-size:14px;
+    color: #999999;
+}
+.star{
+    display:flex;
+}
+.bot{
+    text-align:center;
+    color:#f4694c;
+    font-family: 'Poppins';
+    margin-left:45%;
+}
+.bot:hover{
+    color:#f4694c;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    text-align:center;
+}
+.btimg{
+    width:52px;
+}
+.star{
+    font-family: 'Regular';
+    font-size:18px;
+    color:#ea9459;
+}
+/*--hover-effect--*/
+.card:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;    
+}
+/*----------------------------- Footer ------------------------*/
+.last{
+    background-image: url(/Images/home-footer.jpg);
+    height: 460px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last h1{
+    font-family: 'Playfair Display';
+    font-size:52px;
+    color: #fff;
+}
+.last p{
+    font-family: 'Poppins';
+    font-size:24px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .last{
+        height: 760px;
+        width: 100%;
+    }
+}
+.links a{
+    font-family: 'Raleway';
+    color:#999999;
+}
+.end{
+    background-color:#f4694c;
+    height:90px;
+    display: flex;
+}
+.end h6{
+    font-family:'Poppins' medium;
+    font-size:19px;
+    color:white;
+}
+.icon{
+    width:42px;
+}
+.icons a{
+    color:white;
+    width:45px;
+}
+

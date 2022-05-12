@@ -1,0 +1,72 @@
+/*---------------------------- Navbar --------------------------*/
+.bgnav{
+    background-color: #f4694c;
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+}
+
+/*--------------------------- Big-Image ------------------------*/
+.bi{
+    background-image: url('/Images/Map.jpg');
+    height:535px;
+}
+.info{
+    background-color: rgba(255, 255, 255, 0.705);
+    width:400px;
+    height:237px;
+    margin-left:20%;
+}
+.loc{
+    display: flex;
+}
+
+/*---------------------------------- Contact ---------------------*/
+.ll{
+    display: flex;
+}
+.btnff{
+    background-color: #f4694c;
+    color: #fff;
+    margin-left:45%;
+    margin-top:2%;
+}
+
+
+/*----------------------------- Footer ------------------------*/
+.last h1{
+    font-family: 'Playfair Display';
+    font-size:52px;
+    color: #fff;
+}
+.last p{
+    font-family: 'Poppins';
+    font-size:24px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .last{
+        height: 760px;
+        width: 100%;
+    }
+}
+.links a{
+    font-family: 'Raleway';
+    color:#999999;
+}
+.end{
+    background-color:#f4694c;
+    height:90px;
+    display: flex;
+}
+.end h6{
+    font-family:'Poppins' medium;
+    font-size:19px;
+    color:white;
+}
+.icon{
+    width:42px;
+}
+.icons a{
+    color:white;
+    width:45px;
+}

@@ -1,0 +1,106 @@
+/*---------------------------- Navbar --------------------------*/
+.bgnav{
+    background-color: #f4694c;
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+}
+/*--------------------------- Big-Image ------------------------*/
+.all{
+    background-image:url('/Images/home-cover.jpg');
+    height: 582px;
+    width:1050px;
+}
+.shadow{
+    width:100%;
+    opacity:0.5;
+    height: 882px;
+}
+.tetx{
+    background-color: #252525f6;
+    width: 450px;
+    height:300px;
+    text-align: center;
+    font-family: 'Payfair Display';
+    color: white;
+    margin-left:55%;
+    margin-top: -25%;
+}
+.tetx h3{
+    font-size:54px;
+    padding-top:40px;
+}
+.card:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;    
+}
+@media (max-width:768px){
+    .tetx{
+        margin-left:35%;
+        margin-top: -55%;
+    }
+}
+/*------------------------------ Choose -----------------------*/
+.choose h3{
+    text-align: center;
+    font-family:'Playfair Display';
+    font-size:36px;
+}
+.choose p{
+    text-align: center;
+    font-family:'Raleway';
+    font-size:18px;
+}
+.btnc{
+    background-color:#f4694c;
+    color: #fff;
+}
+.cards{
+    font-family: 'Raleway' semi-bold;
+}
+.choose{
+    padding-top:15%;
+}
+/*----------------------------- Footer ------------------------*/
+.last h1{
+    font-family: 'Playfair Display';
+    font-size:52px;
+    color: #fff;
+}
+.last p{
+    font-family: 'Poppins';
+    font-size:24px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .last{
+        height: 760px;
+        width: 100%;
+    }
+}
+.links a{
+    font-family: 'Raleway';
+    color:#999999;
+}
+.end{
+    background-color:#f4694c;
+    height:90px;
+    display: flex;
+}
+.end h6{
+    font-family:'Poppins' medium;
+    font-size:19px;
+    color:white;
+}
+.icon{
+    width:42px;
+}
+.icons a{
+    color:white;
+    width:45px;
+}
+

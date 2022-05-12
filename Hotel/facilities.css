@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    justify-content: center;
+}
+/*---------------------------- Navbar --------------------------*/
+.bgnav{
+    background-color: #f4694c;
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+}
+
+/*---------------------------- Facilities --------------------*/
+.container h3 {
+    font-family: 'Poppins';
+    font-size:60px;
+    color: #f4694c;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.container p {
+    font-family: 'Poppins' medium;
+    font-size:22px;
+    color: #000;
+    text-align: center;
+}
+.one{
+    background-image: url('/Images/facilities.jpg');
+    height:850px;
+    width:1320px;
+    justify-content: center;
+}
+.two{
+    background-image: url('/Images/facilities 2.jpg');
+    height:850px;
+    width:1320px;
+    justify-content: center;
+}
+.three{
+    background-image: url('/Images/facilities 3.jpg');
+    height:850px;
+    width:1320px;
+    justify-content: center;
+}
+.sp{
+    background-color: #f4694c;
+    color: #fff;
+    height:150px;
+    width:580px;
+    margin-left:35%;
+    margin-top: -10%;
+}
+.sp h1{
+    color: #fff;
+    text-align: center;
+}
+@media (max-width:768px){
+    .one, .two, .three{
+        width:600px;
+    }
+}
+@media (max-width:1068px){
+    .one, .two, .three{
+        width:800px;
+    }
+}
+/*----------------------------- Footer ------------------------*/
+.last h1{
+    font-family: 'Playfair Display';
+    font-size:52px;
+    color: #fff;
+}
+.last p{
+    font-family: 'Poppins';
+    font-size:24px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .last{
+        height: 760px;
+        width: 100%;
+    }
+}
+.links a{
+    font-family: 'Raleway';
+    color:#999999;
+}
+.end{
+    background-color:#f4694c;
+    height:90px;
+    display: flex;
+}
+.end h6{
+    font-family:'Poppins' medium;
+    font-size:19px;
+    color:white;
+}
+.icon{
+    width:42px;
+}
+.icons a{
+    color:white;
+    width:45px;
+}
